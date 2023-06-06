@@ -16,4 +16,3 @@ print(idade, type(idade))
 
 idade = str(idade)
 print(idade, type(idade))
-
