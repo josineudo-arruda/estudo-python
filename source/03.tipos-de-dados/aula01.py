@@ -1,4 +1,4 @@
-""" 01 - ipos de dados - Lista """
+""" 01 - Lista """
 
 # listas
 # ordenadas
