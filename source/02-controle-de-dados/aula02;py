@@ -1,0 +1,62 @@
+""" Aula 02 - instrução if """
+
+# python
+# if condicao:
+#     instrucao
+#     instrucao
+#     instrucao
+
+# não usa () e {}
+
+codigo_cliente = 32
+valor_desconto = 23.0
+DESCONTO_ESPECIAL = valor_desconto >= 20.0
+
+if DESCONTO_ESPECIAL:
+    print('Desconto Especial')
+    print(codigo_cliente)
+else:
+    print('Sem desconto especial')
+
+
+# Nome tem que ter pelo menos 3 caracteres
+nome = 'Lo'
+
+print(len(nome), type(len(nome)))
+
+NOME_INVALIDO = len(nome) < 3
+
+if NOME_INVALIDO:
+    print('Nome deve ter pelo menos 3 caracteres')
+else:
+    print('Nome válido')
+
+NOME_VALIDO = len(nome) >= 3
+if NOME_VALIDO:
+    print('Nome válido')
+else:
+    print('Nome deve ter pelo menos 3 caracteres')
+    
+
+if not NOME_INVALIDO:
+    print('Nome válido')
+else:
+    print('Nome deve ter pelo menos 3 caracteres')
+    
+
+# nome tem que ter pelo menos 3 caracteres
+# idade tem que ser maior ou igual a 18
+# exibir todos os erros no final apenas
+nome = 'Los'
+idade = 18
+erros = []
+
+NOME_INVALIDO = len(nome) < 3;
+if NOME_INVALIDO:
+    erros.append('Nome deve ter pelo menos 3 caracteres')
+
+IDADE_INVALIDA = idade < 18
+if IDADE_INVALIDA:
+    erros.append('Idade deve ser maior ou igual a 18')
+
+
