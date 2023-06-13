@@ -1,4 +1,4 @@
-""" Aula 02 - Tipos de Dados - Tuplas """
+""" Aula 02 - Tuplas """
 
 # tuplas
 # ordenadas
