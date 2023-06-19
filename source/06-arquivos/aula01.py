@@ -27,9 +27,9 @@
 
 import os
 
-if os.path.exists("source/06-manipular-arquivos/teste3.txt"):
-    os.remove("source/06-manipular-arquivos/teste3.txt")
+if os.path.exists("source/06-arquivos/teste3.txt"):
+    os.remove("source/06-arquivos/teste3.txt")
 else:
     print("Arquivo não existe")
 
-os.rmdir("source/06-manipular-arquivos/pasta/") # apenas se estiver vazia
+os.rmdir("source/06-arquivos/pasta/") # apenas se estiver vazia

@@ -1,4 +1,4 @@
-arq = open("source/06-manipular-arquivos/arquivo.txt", "w")
+arq = open("source/06-arquivos/arquivo.txt", "w")
 
 string = "Ola Taylor\n"
 lista = ["Ola ", "mini ", "querido\n"]
@@ -7,5 +7,5 @@ arq.writelines(lista)
 
 arq.close()
 
-with open("source/06-manipular-arquivos/arquivo.txt", "w") as arqs:
+with open("source/06-arquivos/arquivo.txt", "w") as arqs:
     arqs.write("teste")
